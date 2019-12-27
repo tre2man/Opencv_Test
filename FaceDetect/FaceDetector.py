@@ -6,17 +6,22 @@ def faceDetect():
     eye_detect=False
     face_cascade=cv2.CascadeClassifier('haarcascade_frontface.xml')
     eye_cascade=cv2.CascadeClassifier('haarcascade_eye.xml')
+    info = ''
 
     '''얼굴 검출과 눈 검출을 위한 데이터를 읽어 CascadeClassifier 객체를 생성한다.
     CascadeClassifier 는 효과적인 객체 검출 방법이다.
     여기 있는 파일들은 미리 학습을 시켜 둔 파일이다.
     '''
 
-    info=''
-
     try:
         print('카메라 로딩 중...')
         cap=cv2.VideoCapture(0)
+
+        '''
+        1번째 카메라는 0, 2번째 카메라는 1....
+        ()안에 비디오파일 이름을 작성하면 비디오 파일이 실행된다.
+        '''
+
     except:
         print("카메라 없음")
         return
