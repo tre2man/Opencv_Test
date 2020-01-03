@@ -35,7 +35,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.FaceDetector">
+  <component name="RunManager" selected="Python.opencytest">
     <configuration name="FaceDetector" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="opencv" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -80,8 +80,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.FaceDetector" />
         <item itemvalue="Python.opencytest" />
+        <item itemvalue="Python.FaceDetector" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +103,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
