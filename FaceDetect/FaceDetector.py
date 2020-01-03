@@ -15,7 +15,8 @@ def faceDetect():
 
     try:
         print('카메라 로딩 중...')
-        cap=cv2.VideoCapture(0)
+        cap=cv2.VideoCapture(0) #for computer
+        #cap = cv2.VideoCapture(-1)  # for pi
 
         '''
         1번째 카메라는 0, 2번째 카메라는 1....
