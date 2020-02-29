@@ -1,3 +1,5 @@
+#얼굴과 눈 검출하기
+
 import cv2
 
 cap = cv2.VideoCapture("http://192.168.0.24:7500/?action=stream")
