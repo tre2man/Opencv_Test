@@ -1,2 +1,3 @@
 
 yolov4test/tensorflow-yolov4-tflite-master/data/yolov4.weights
+*.xml

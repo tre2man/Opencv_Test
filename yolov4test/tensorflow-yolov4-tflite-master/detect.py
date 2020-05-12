@@ -15,7 +15,7 @@ flags.DEFINE_string('weights', './data/yolov4.weights',
 flags.DEFINE_integer('size', 608, 'resize images to')
 flags.DEFINE_boolean('tiny', False, 'yolo or yolo-tiny')
 flags.DEFINE_string('model', 'yolov4', 'yolov3 or yolov4')
-flags.DEFINE_string('image', './data/kite.jpg', 'path to input image')
+flags.DEFINE_string('image', './data/sg.jpg', 'path to input image')
 flags.DEFINE_string('output', 'result.png', 'path to output image')
 
 def main(_argv):
