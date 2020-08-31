@@ -4,7 +4,7 @@ import cv2
 def tracking():
     try:
         print('카메라를 구동합니다.')
-        cap=cv2.VideoCapture("http://192.168.0.24:7500/?action=stream") #for computer
+        cap=cv2.VideoCapture(0) #for computer
         #cap = cv2.VideoCapture(-1)  # for pi
     except:
         print('카메라 구동 실패')
