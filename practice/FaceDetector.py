@@ -1,10 +1,11 @@
 import numpy as np
 import cv2
+import time
 
 font=cv2.FONT_HERSHEY_SIMPLEX
 def faceDetect():
     eye_detect=False
-    face_cascade=cv2.CascadeClassifier('haarcascade_frontface_default.xml')
+    face_cascade=cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
     eye_cascade=cv2.CascadeClassifier('haarcascade_eye.xml')
     info = ''
 
@@ -15,7 +16,7 @@ def faceDetect():
 
     try:
         print('카메라 로딩 중...')
-        cap=cv2.VideoCapture("http://192.168.0.24:7500/?action=stream") #for computer
+        cap=cv2.VideoCapture(0) #for computer
         #cap = cv2.VideoCapture(-1)  # for pi
 
         '''
